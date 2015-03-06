@@ -5,7 +5,7 @@
  */
 
 /**
- * @description Create and show alert from Bootstrap
+ * @description Tiny plugin to show alert from Bootstrap
  * @version 1.0.0
  * @author Celso Marques
  */
