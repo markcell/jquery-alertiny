@@ -11,22 +11,37 @@ The following options are supported:
 
 ```js
 // Example #1
-$('.alert-container').Alertiny('success', 'Example only with alert type and alert message.');
+$('.alert-container').Alertiny(
+  'success', 
+  'Example only with alert type and alert message.'
+);
 ```
 
 ```js
 // Example #2
-$('.alert-container').Alertiny('info', 'Example with extra classes.', {extraClass: 'example'});
+$('.alert-container').Alertiny(
+  'info', 
+  'Example with extra classes.', 
+  {extraClass: 'example'}
+);
 ```
 
 ```js
 // Example #3
-$('.alert-container').Alertiny('warning', 'Example without close button.', {closeButton: false});
+$('.alert-container').Alertiny(
+  'warning', 
+  'Example without close button.', 
+  {closeButton: false}
+);
 ```
 
 ```js
 // Example #4
-$('.alert-container').Alertiny('danger', 'Example without fade effect.', {fadeEffect: false});
+$('.alert-container').Alertiny(
+  'danger', 
+  'Example without fade effect.', 
+  {fadeEffect: false}
+);
 ```
 
 ## License
