@@ -1,5 +1,5 @@
 # jQuery-Alertiny v1.0.0
-Create and show alert component from Bootstrap.
+Tiny plugin to show alert from Bootstrap.
 
 ## Options
 The following options are supported:
